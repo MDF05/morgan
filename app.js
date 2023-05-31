@@ -19,8 +19,8 @@ app.get('/info', (req, res) => {
     res.json({ name: 'aulia wulandari' })
 })
 
-const port = process.env.PORT || 3000
-const host = process.env || 'localhost';
-app.listen(3000, host, () => {
+const port = process.env.PORT || 3000;
+const host = 'https: //morgan-tau.vercel.app/';
+app.listen(port, host, () => {
     console.log('listening on port 3000')
 })
