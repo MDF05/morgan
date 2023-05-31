@@ -20,7 +20,7 @@ app.get('/info', (req, res) => {
 })
 
 const port = process.env.PORT || 3000
-const host = process.env.HOST || 'localhost';
+const host = process.env || 'localhost';
 app.listen(3000, host, () => {
     console.log('listening on port 3000')
 })
