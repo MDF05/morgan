@@ -20,7 +20,7 @@ app.get('/info', (req, res) => {
 })
 
 const port = process.env.PORT || 3000;
-const host = 'https: //morgan-tau.vercel.app/';
+const host = 'https://morgan-tau.vercel.app/';
 app.listen(port, host, () => {
     console.log('listening on port 3000')
 })
